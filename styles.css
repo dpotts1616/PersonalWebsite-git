@@ -4,13 +4,14 @@
        margin-bottom: 20px;
        position: fixed;
        top: 0;
-       /* background-color: rgb(110, 80, 23); */
+       left: 0;
+       background-color: rgb(110, 80, 23);
        padding: 5px;
      }
 
 
-       .topnav a {
-         float: left;
+      .topnav a {
+        float: left;
         color: whitesmoke;
         width: 25%;
        }
@@ -26,17 +27,20 @@
       font-family: helvetica;
     }
 
-    .projects section {
+    .projects {
       background-color: rgba(245, 222, 179, 0.4);
     }
 
     h1{
+      font-size: 32px;
       text-align: left;
-      background-color: rgba(245, 222, 179, 0.4);
+      /* background-color: rgba(245, 222, 179, 0.4); */
     }
 
     h2 {
-      background-color: rgba(245, 222, 179, 0.4);
+      font-size: 24px;
+      text-align: left;
+      /* background-color: rgba(245, 222, 179, 0.4); */
 
     }
 
@@ -52,7 +56,7 @@
     }
 
 
-    .bio {
+    .info {
       font-size: 20px;
       margin: 60px auto;
       color:whitesmoke;
@@ -67,11 +71,14 @@
       border: 5px solid rgba(100,100,100,.6);
       border-radius: 300px;
     }
+
     input{
       border: 0;
       padding: 10px;
       font-size: 18px;
     }
+
+
     input[type="email"] {
       background: rgba(255,255,255,.7);
       border: 1px solid black ;
