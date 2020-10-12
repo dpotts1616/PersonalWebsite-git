@@ -26,6 +26,15 @@
       font-family: helvetica;
     }
 
+    .projects section {
+      background-color: rgba(245, 222, 179, 0.4);
+    }
+
+    h1{
+      text-align: left;
+      background-color: rgba(245, 222, 179, 0.4);
+    }
+
     h2 {
       background-color: rgba(245, 222, 179, 0.4);
 
